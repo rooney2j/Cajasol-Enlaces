@@ -25,7 +25,7 @@ SECRET_KEY = '*=yo7n0ku##1^2rc!=j%cf!h$kxio3c&*)+7#@38terjep#_q7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sistemascajasol1.pythonanywhere.com', ]
 
 
 # Application definition
