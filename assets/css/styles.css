@@ -1,0 +1,12 @@
+:root {
+  --rojo: #FF0000;
+}
+
+.icono {
+  height: 20px;
+}
+
+.alerta {
+  color: var(--rojo);
+  text-transform: uppercase;
+}

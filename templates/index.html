@@ -1,8 +1,13 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Enlaces a hojas en línea</title>
+
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
   </head>
   <body>
 
@@ -18,6 +23,10 @@
 
     <main>
       <h2>Cajasol</h2>
+
+      <img class="icono" src="{% static 'img/alerta_2.png' %}" alt="Alerta">
+      <a href="https://docs.google.com/spreadsheets/d/1C-r-Qqz14MDlrejfWCRIArJuT3KBltfAnPlpzHvUg_E/edit?usp=sharing" target="_blank" class="alerta"> Cambio de fecha</a>
+
       <h3>Operaciones</h3>
       <ol>
         <li>
