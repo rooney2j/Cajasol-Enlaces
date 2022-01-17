@@ -2,6 +2,14 @@
   --rojo: #FF0000;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;  /* 1 rem = 10 px */
+}
+
 .icono {
   height: 20px;
 }
@@ -9,4 +17,24 @@
 .alerta {
   color: var(--rojo);
   text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.empresas {
+  display: flex;
+}
+
+.empresas div {
+  max-width: 50rem;
+  border: 0.1rem solid;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.empresas h2 {
+  text-align: center;
 }
